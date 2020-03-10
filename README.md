@@ -20,7 +20,7 @@ Once built, the ros_eehmd package proposes 4 nodes:
 This node is an example of how to subscribe the Myo EMG data. It subscribes the **myo_raw** topic and writes the EMG vector in the command promp as it is sent by the topic.
 
 ##### myo_subscriber_node
-This node is an example of how to subscribe the Leap Motion data. It subscribes the **Leapmotion_raw** topic and writes the x coordinate of thumb metacarpal bone in the command promp.
+This node is an example of how to subscribe the Leap Motion data. It subscribes the **Leapmotion_raw** topic and writes the coordinate of thumb metacarpal bone in the command promp.
 
 ##### joint_coordinates_publisher
 This code subscribes the **leapmotion_raw** topic and publishes the corresponding joint coordinates in the **joint_coordinates_from_leap** topic. The header is copied for a future synchronization.
