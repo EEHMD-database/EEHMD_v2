@@ -14,7 +14,7 @@ The EEHMD v2 currently have only the ROS code to create the database. It is code
 
 ### ros_eehmd
 
-Once built, the ros_eehmd package proposes 4 nodes:
+Once built, the ros_eehmd package proposes 3 nodes:
 
 ##### myo_subscriber_node
 This node is an example of how to subscribe the Myo EMG data. It subscribes the **myo_raw** topic and writes the EMG vector in the command promp as it is sent by the topic.
