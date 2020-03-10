@@ -1,5 +1,5 @@
 # EEHMD_v2
-2st version of the EEHMD database. It includes higher aquisition frequencies and improved motion-capture precision.
+2nd version of the EEHMD database. It includes higher aquisition frequencies and improved motion-capture precision.
 
 ## Description
 
