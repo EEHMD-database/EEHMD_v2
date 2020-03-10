@@ -12,6 +12,8 @@ The EEHMD v2 currently have only the ROS code to create the database. It is code
 
 ## How to use it
 
+### ros_eehmd
+
 Once built, the ros_eehmd package proposes 4 nodes:
 
 ##### myo_subscriber_node
@@ -22,4 +24,12 @@ This node is an example of how to subscribe the Leap Motion data. It subscribes 
 
 ##### joint_coordinates_publisher
 This code subscribes the **leapmotion_raw** topic and publishes the corresponding joint coordinates in the **joint_coordinates_from_leap** topic. The header is copied for a future synchronization.
+
+### ros_leapmotion
+
+The ros_leapmotion package instructions can be found here : https://github.com/SimonKirchhofer-UCA/ROS_Myo_Windows
+
+### ros_myo
+
+The ros_myo package instructions can be found here : https://github.com/SimonKirchhofer-UCA/ROS-LeapMotion-Windows
 
