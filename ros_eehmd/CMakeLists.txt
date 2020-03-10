@@ -60,8 +60,6 @@ find_package(gazebo REQUIRED)
    FILES
    leapmsg.msg
    EmgArray.msg
-   MyoArm.msg
-   Imu.msg
    JointsCoordinates.msg
  )
 

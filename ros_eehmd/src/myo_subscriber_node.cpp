@@ -1,7 +1,6 @@
 #include "ros/ros.h"
 #include "std_msgs/String.h"
 #include "EmgArray.h"
-#include "MyoArm.h"
 
 void chatterCallback(const ros_eehmd::EmgArrayConstPtr& myo_msg )
 { for (int i=0;i<myo_msg->data.size();i++)
