@@ -195,7 +195,7 @@ int main(int argc, char** argv) {
 	ros::init(argc, argv, "leapmotion");
 
 	ros::NodeHandle n;
-	leap_pub = n.advertise<leapmotion::leapmsg>("Leapmotion_raw", 1000);
+	leap_pub = n.advertise<leapmotion::leapmsg>("leapmotion_raw", 1000);
 
   //Set callback function pointers
   ConnectionCallbacks.on_connection          = &OnConnect;

@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 
  ros::NodeHandle n;
 
-ros::Subscriber submyo = n.subscribe("myo_emg", 1000, chatterCallback);
+ros::Subscriber submyo = n.subscribe("myo_raw", 1000, chatterCallback);
 
  ros::spin();
 

@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 
  ros::NodeHandle n;
 
-ros::Subscriber subleap = n.subscribe("Leapmotion_raw", 1000, chatterCallback);
+ros::Subscriber subleap = n.subscribe("leapmotion_raw", 1000, chatterCallback);
 
  ros::spin();
 

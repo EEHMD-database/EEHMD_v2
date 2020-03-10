@@ -30,7 +30,7 @@ int main(int argc, char **argv)
 
  ros::NodeHandle n;
 
- ros::Subscriber subleap = n.subscribe("Leapmotion_raw", 1000, chatterCallback);
+ ros::Subscriber subleap = n.subscribe("leapmotion_raw", 1000, chatterCallback);
 joints_coordinate_publisher = n.advertise<ros_eehmd::JointsCoordinates>("joints_coordinates_from_leap", 1000);
 
  ros::Rate loop_rate(100);
