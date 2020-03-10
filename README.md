@@ -5,7 +5,7 @@
 
 The Electromyography and Enhanced Hand Motion Description (EEHMD) database contains sEMG (surface electromyography) signals and motion capture of human hand. The sEMG signals are captured by a Myo armband. The motion acquisition is achieved with a Leap Motion stereoscopic camera. 
 
-The EEHMD v2 currently has only the ROS codes to create the database. It is coded for windows to take advantage of manufactutrer drivers. It includes the following improvement :
+Currently, the EEHMD v2 has only the ROS codes to create the database. It is coded for windows to take advantage of manufactutrer drivers. It includes the following improvement :
 
 - The Leap Motion uses the 4.0.0 SDK. This new C library (and no C++) is faster, more robust and more precise than the previous version.
 - The Myo uses the 0.9.0 SDK which provides raw 200Hz EMG data (50Hz in the EEHMD_v1).
