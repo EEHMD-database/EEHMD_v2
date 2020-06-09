@@ -27,9 +27,9 @@ This code subscribes the **leapmotion_raw** topic and publishes the correspondin
 
 ### ros_leapmotion
 
-The ros_leapmotion package instructions can be found here : https://github.com/SimonKirchhofer-UCA/ROS_Myo_Windows
+The ros_leapmotion package instructions can be found here : https://github.com/SimonKirchhofer-UCA/ROS-LeapMotion-Windows
 
 ### ros_myo
 
-The ros_myo package instructions can be found here : https://github.com/SimonKirchhofer-UCA/ROS-LeapMotion-Windows
+The ros_myo package instructions can be found here : https://github.com/SimonKirchhofer-UCA/ROS_Myo_Windows
 
